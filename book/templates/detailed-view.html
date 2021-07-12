@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Detailed View | Faiz Elahi Assignment</title>
+    <link rel="stylesheet" href="{% static 'css/detailed-book.css' %}">
+</head>
+<body>
+                	<div class="blog-card spring-fever">
+                          <div class="title-content">
+                            <h3><a href="#">{{book.name}}</a></h3>
+                            <div class="intro">
+                                <a href="#">Author:  {{book.author}}</a><br>
+                                <a href="#" style="line-height: 2em;">Genre: {{book.genre}}</a>
+                            </div>
+                          </div>
+                          <div class="card-info">
+                            Language: {{book.language}}
+                          </div>
+                          <div class="gradient-overlay"></div>
+                          <div class="color-overlay"></div>
+                    </div><!-- /.blog-card -->
+</body>
+</html>

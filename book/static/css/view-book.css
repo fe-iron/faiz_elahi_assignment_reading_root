@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color: #d6d2d2 !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+.icon-box {
+    position: relative;
+    display: block;
+    padding: 40px 20px 30px;
+    -webkit-transition: all .25s cubic-bezier(.645, .045, .355, 1);
+    -o-transition: all .25s cubic-bezier(.645, .045, .355, 1);
+    transition: all .25s cubic-bezier(.645, .045, .355, 1);
+    border-radius: 5px;
+    z-index: 99;
+    text-decoration: none
+}
+
+.filter {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.filter li {
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+.filter li a {
+  cursor: pointer;
+	border-radius: 3px;
+	padding: 10px 20px;
+	color: rgba(255,255,255,1);
+	font-family: "Helvetica", "Arial", sans-serif;
+	text-transform: uppercase;
+	display: block;
+	background: rgba(100,100,100,1);
+	margin: 1px;
+
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.filter li a:hover {
+	background: rgba(100,200,255,1);
+}
+
+#showcase {
+  position: relative;
+	padding: 20px;
+	text-align: center;
+  margin: 0 auto;
+  width: 1040px;
+}
+
+#showcase .all {
+  overflow:hidden;
+  width: 200px;
+  float:left;
+  margin: 10px;
+	border-radius: 3px;
+	padding: 10px 20px;
+  color: rgba(255,255,255,1);
+	background: rgba(120,120,120,1);
+
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+#showcase .red {
+	background: rgba(200,50,40,1);
+}
+
+#showcase .green {
+	background: rgba(60,160,80,1);
+}
+
+#showcase .blue {
+	background: rgba(60,80,200,1);
+}
+
+.off {
+	//-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	//filter: alpha(opacity=25);
+	//opacity: .25;
+	display: none
+}
+
+
+
+.col-md-4 {
+    margin-top: 10px
+}
+
+.icon-box .icon {
+    margin-bottom: 24px
+}
+
+.icon-box:hover {
+    z-index: 1;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+  transform:translateY(-15px);
+}
+
+.icon-box .content .title.fz-20 {
+    font-size: 20px
+}
+
+.icon-box .content .title {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+    color: #3f3a64
+}
+
+.icon-box .content .desc {
+    margin-top: 10px
+}
+
+.icon-box .content .desc p {
+    line-height: 1.6;
+    color: #696969
+}
+
+p:last-child {
+    margin-bottom: 0
+}
+
+.icon-box:hover .content .link {
+    color: #20ad96
+}
+
+.icon-box .content .link {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 34px;
+    padding: 5px 0;
+    color: #8c89a2
+}
+
+.icon-box .content .link i {
+    font-size: 16px;
+    line-height: 14px;
+    margin-left: 14px
+}
